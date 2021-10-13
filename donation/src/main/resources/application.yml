@@ -1,0 +1,10 @@
+server:  port: 9090
+
+spring:
+  datasource:
+    url: jdbc:oracle:thin:@//localhost:1521/XEPDB1
+    username: hr
+    password: hr
+  jpa:    show-sql: true      hibernate:      ddl-auto: create  management:  endpoints:    web:      exposure:        include:        - "*"
+  endpoint:    shutdown:      enabled: true
+info:  build:    artificatId: '@project.artifact@'    groupId: '@project.groupId@'    version: '@project.version@'  java:      version:@java.version@
