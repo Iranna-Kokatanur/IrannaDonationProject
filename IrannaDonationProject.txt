@@ -1,0 +1,25 @@
+NOTE:Don't Consider The "months" file.
+
+
+
+IrannaDonationProject:
+
+
+1)Donation:
+	This folder contains all the tables which are connected to oracle database.
+
+2)DonationCampService:
+ 	This is the microservice folder where you can create,remove,update the camp details through web browser.
+
+3)DonorService:
+	This is the microservice folder where you can create,remove,update the donor details and here you can see the donationcamp of your locality means 
+        
+where you want to register.
+
+4)DonationDetailsClient:
+	This is the microservice client folder which combines the donor and donationcamp and it will show you the results of findbybloodgroup,bylocation
+
+and byeligibility.
+
+5)Eurekha-registry:
+	This is the Eurekha server folder where it will connect all the service and client thorough you can access the service of donation and client.
