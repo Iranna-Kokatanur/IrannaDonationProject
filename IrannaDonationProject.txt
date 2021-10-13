@@ -17,9 +17,9 @@ IrannaDonationProject:
 where you want to register.
 
 4)DonationDetailsClient:
-	This is the microservice client folder which combines the donor and donationcamp and it will show you the results of findbybloodgroup,bylocation
+	This is the microservice client folder which combines the donor and donationcamp based on location and it will show you the results of findbybloodgroup,bylocation
 
-and byeligibility.
+and byeligibility. And  "showdonations" hyperlink on the web browser combines the two tables.
 
 5)Eurekha-registry:
 	This is the Eurekha server folder where it will connect all the service and client thorough you can access the service of donation and client.
